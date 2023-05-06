@@ -1,0 +1,160 @@
+/* .menu {
+    height: 100%;
+    border-right: 1px solid rgba(0, 0, 0, 0.12);
+    padding-top: 20px !important;
+    padding-right: 0 !important;
+} */
+.menu .MuiListItemButton-root {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-bottom:auto;
+}
+
+.collapsible-menu .MuiListItemButton-root {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-bottom: 0px !important;
+    padding-left: 40px;
+}
+
+.menu .MuiListItemButton-root:hover {
+    border-radius: 2px;
+    background-color: transparent;
+}
+
+.menu .lib-active:hover {
+    /* background-color: #addbff !important; */
+}
+
+.menu .lib-active {
+    border-radius: 2px;
+    /* background-color: #ddf1ff; */
+    color: var(--color-primary);
+    font-weight: 800;
+}
+
+.menu .lib-active .indicator {
+    height: 20px !important;
+    width: 2px !important;
+    background-color: var(--color-primary);
+    position: absolute;
+    right: 0;
+}
+
+.menu .lib-active .MuiListItemIcon-root {
+    color: var(--color-primary);
+}
+
+.menu .MuiTypography-root {
+    font-size: .899rem;
+}
+
+.faq-title .MuiTypography-root {
+    font-weight: 600 !important;
+    font-size: 20px !important;
+}
+
+.menu .MuiSvgIcon-root {
+    font-size: 1.25rem;
+}
+
+.collapsible-menu .MuiSvgIcon-root {
+    font-size: .4rem;
+}
+
+.menu .MuiListItemIcon-root {
+    min-width: 30px;
+}
+
+.collapsible-menu .MuiListItemIcon-root {
+    min-width: 18px;
+}
+
+.menu .MuiListSubheader-root {
+    line-height: 42px;
+    padding-left: 18px;
+    font-size: .845rem;
+    /* font-weight: normal; */
+    padding-right: 8px;
+    text-transform: capitalize;
+}
+
+.menu .nav-list-text {
+    font-size: 10px;
+}
+
+.menu .MuiIconButton-sizeSm {
+    padding: 0 2px;
+    height: 1.25rem;
+    /* width: 1rem; */
+    border-radius: 6px;
+}
+
+.menu .MuiIconButton-sizeSm:hover {
+    cursor: pointer;
+    background-color: red;
+}
+
+.menu .MuiIconButton-sizeSm .MuiSvgIcon-root {
+    font-size: 1rem;
+}
+
+@media (min-width: 600px) {
+    .header-toolbar {
+        min-height: 55px !important;
+    }
+
+    .menu-toolbar {
+        min-height: 54px !important;
+    }
+}
+
+.main .MuiPaper-root {
+    border-radius: 2px;
+}
+
+#account-menu .MuiMenuItem-root {
+    font-size: .875rem;
+}
+
+.menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav-drawer .MuiPaper-root.MuiDrawer-paper {
+    border-right: none;
+}
+
+.is-expandable,
+.collapsible-menu {
+   
+    border-bottom: 2px solid #fcfcfc !important;
+    border-radius: 2px !important;
+}
+
+.expanded {
+    border-bottom: none !important;
+    border-radius: 2px 2px 0 0 !important;
+
+}
+
+.open {
+    border-radius: 0 0 2px 2px !important;
+}
+
+.btn-nav{
+    padding: 10px 25px !important;
+}
+.btn-nav:focus {
+    outline:none !important;
+    background-color: #b69438 !important;
+    color:#fff !important;
+  }
+ 
+.btn-nav:hover {
+    outline: none !important;
+    background-color: #b69438 !important;
+    color:#fff !important;
+}
+

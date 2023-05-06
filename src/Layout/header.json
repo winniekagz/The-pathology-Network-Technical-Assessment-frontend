@@ -1,0 +1,60 @@
+[
+    {
+        "id":"1",
+        "title":"Climate Impact",
+        "image":"/customImages/climate3.jpg",
+        "image2": "/customImages/climate2.jpg",
+        "image3": "/customImages/climate4.jpg",
+        "semidesc": "Climate Impacts are so difficult to predict because of the complexity of the climate system.Climate is affected by many different factors.",
+        "description":" We create enlightenment around issues that contribute to the climate changes, for instance scarcity of water which are man-made and bring out the issues to the public’s attention. Making communities aware of their role, as well as raising awareness about what they can do as a community to mitigate climate change This is of great importance. Women's leadership will make a significant difference in advancing environmental conservation through their forward-thinking nature."
+    },
+{
+        "id": "6",
+        "title": "Security Sector",
+        "image": "/customImages/security.jpg",
+        "image2": "/customImages/security4.jpg",
+        "image3": "/customImages/security2.jpg",
+        "semidesc": "Womens participation in the security sector can help reduce the risk of violence by providing a more  gendersensitive approach to security",
+        "description": "Women play an important role in the society, thus advocating for their inclusion in the security sector reform is critical. Women and girls have been barred from participating in issues of peace and security, particularly in combating violent extremism and other war crimes, due to a lack of gender mainstreaming. Additionally, terror groups have manipulated and exploited gender stereotypes and grievances in their recruitment and execution of violence. It is critical that women participate in processes that are aimed at preventing violence and conflict."
+},
+    {
+        "id": "2",
+        "title": "Leadership and Development",
+        "image2": "/customImages/leadership.jpg",
+        "image3": "/customImages/leader4.jpg",
+        "image": "/customImages/leader5.jpg",
+        "semidesc":"If Women are skilled in leadership development,they can become agents of change in their communiities ,organizations and societies. They can create lasting impacts on those around them and help create a more equitable just world",
+        "description": " We ensure that women have equal access to opportunities through curating customized and flexible training programs. This equips them with skills to be able to address the challenges in competencies and knowledge gaps. We want to level the playing field for women so that they can pursue their political and leadership ambitions alongside their male counterparts. "
+    },
+    {
+        "id": "3",
+        "title": "Technology and Inovations",
+        "image": "/customImages/technology.jpg",
+        "image3": "/customImages/technology2.jpg",
+        "image2": "/customImages/technology4.jpg",
+        "semidesc": "Technology Innovation are so important in today’s world because they are the driving force behind progress and development. Have revolutionized the way we communicate, work, and live.",
+        "description": "We help women move forward by ensuring they have access to the best technology that aids in their advancement socially, politically and financially."
+
+    },
+    {
+        "id": "4",
+        "title": "Inclusive Politics",
+        "image3": "/customImages/politics.jpg",
+        "image": "/customImages/inclusion4.jpg",
+        "image2": "/customImages/inclusion5.jpg",
+        "semidesc": "Inclusive politics help foster a sense of community and belonging as it encourages people to work together,to create a better future for all.",
+        "description": "We aim at providing assistance to aspiring female candidates for political positions through financial literacy, economic equity programs, and clear understanding of their roles and responsibilities. We aim to move away from positions delegated to women but instead those that they deserve. Mayran Consulting works with them by providing the platform, resources, and education they need to realize the full potential of their abilities and advance their political careers. "
+    },
+    {
+        "id": "5",
+        "title": "Economics and Finance",
+        "image3": "/customImages/economis.jpg",
+        "image2": "/customImages/financee.png",
+        "image": "/customImages/economics2.jpg",
+        "semidesc": "Invest in their future and build wealth. With a better understanding of financial literacy, women can make more informed decisions about their finances, which can lead to greater economic security and independence.",
+        "description": "Women are the backbone of societies, and particularly in African settings, women play an important role in shaping the societal fabric. Investing in women’s economic empowerment is critical because it reduces feminization of poverty and advances gender equality.The goal of economic empowerment for women is to have women who have access to and control over resources, as well as higher earnings. Women, on the other hand, face a number of obstacles that prevent them from reaching their full economic potential",
+        "description2":"Investing in women’s economic empowerment is critical because it reduces feminization of poverty and advances gender equality. The goal of economic empowerment for women is to have women who have access to and control over resources, as well as higher earnings."
+    }
+   
+
+]
