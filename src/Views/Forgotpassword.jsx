@@ -18,12 +18,12 @@ export default function ForgotPassword() {
         const { name, value } = event.target
         setFormData({ ...formData, [name]: value })
 
-        console.log("err", err)
+   
 
     }
     const onSsubmit = (event) => {
         event.preventDefault();
-        console.log(`Submitted value`, formData);
+        
         dispatch(ForgotPasswordAction(formData,navigate))
         Validate(formData)
     };

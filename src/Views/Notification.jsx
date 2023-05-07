@@ -8,7 +8,7 @@ export default function Notifications() {
     const dispatch = useDispatch()
     const {data,loading} = useSelector(state => state.notification)
     const user=LocalStorage("user")
-console.log("data",data)
+
     useEffect(() => {
         dispatch(GetNotificationAction(user._id))
     }, [])

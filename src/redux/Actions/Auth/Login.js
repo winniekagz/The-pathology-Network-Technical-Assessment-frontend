@@ -11,13 +11,13 @@ const LoginActions = (data, navigate) => async (dispatch) => {
     try {
         dispatch({ type: LOGIN_REQUEST })
         const response = await requests.post(`/user/login`, data)
-        console.log("response", response)
+      
         if (response.user.role == 1) {
             navigate('/welcome')
         } else if (response.user.role == 2) {
             navigate('/welcome-admin')
 
-        console.log("login", response.user)
+        
         LocalStorage("token", response.token, 'save')
         LocalStorage("user", JSON.stringify(response.user), 'save')
       }

@@ -33,7 +33,7 @@ if (response.user.role==1){
             type: REGISTER_FAILURE,
             payload: error.response.data
         })
-        console.log
+  
         Swal.fire(
             'Error!',
             `${error}`,

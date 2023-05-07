@@ -6,7 +6,7 @@ import {useDispatch,useSelector} from "react-redux"
 import ResetPasswordActions from '../redux/Actions/Auth/resetPassword';
 import AuthLoadingButton from '../Components/AuthLoadingButtons';
 export default function Login() {
-    const [formData, setFormData] = useState({  password: "",passwordConfirm:"" })
+    const [formData, setFormData] = useState({  password: "" })
   const dispatch=useDispatch()
   const navigate=useNavigate()
   const  {loading,error,data}=useSelector(state=>state.resetPassword)
@@ -18,12 +18,12 @@ const {token}=useParams()
         const { name, value } = event.target
         setFormData({ ...formData, [name]: value })
 
-        console.log("err", err)
+  
 
     }
     const onSsubmit = (event) => {
         event.preventDefault();
-        console.log(`Submitted value`, formData);
+       
         dispatch(ResetPasswordActions(formData,token,navigate))
         Validate(formData)
     };
@@ -55,15 +55,7 @@ const {token}=useParams()
                                         placeholder="Enter password"
                                         onChange={handleChange} />
                                     <div className="my-[19px]">
-                                        <TextInput
-                                            label="Confirm password"
-                                            error={true}
-                                            errorText={err.password}
-                                            name="password"
-                                            type="password"
-                                            value={formData.password}
-                                            placeholder="Re-enter the password"
-                                            onChange={handleChange} />
+                                       
 
                                     </div>
 
@@ -83,7 +75,7 @@ const {token}=useParams()
                                 )}
 
                                 <h6 className="text-dark-blue my-1">
-                                    <Link to="/login">
+                                    <Link to="/">
                                         <span className="text-blue my-[15px] mx-2">Back to login</span>
                                     </Link>
                                 </h6>

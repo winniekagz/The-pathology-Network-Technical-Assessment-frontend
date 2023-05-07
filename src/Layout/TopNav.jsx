@@ -384,20 +384,20 @@ function TopNav(props) {
                 </Box>
               </MenuItem>
               <MenuItem>
-                <Stack
+                <Link to="/profile"> <Stack
                   direction={{ sm: 'row' }}
                   spacing={{ xs: 5, sm: 6, md: 7 }}
                   sx={{ display: 'flex', alignItems: 'center' }}
                 >
-                  <Link to="/profile">
+                 
                   <Typography
                     fontSize="inherit"
                   >
                     Profile
                   </Typography>
-                  </Link>
+                  
                   <OpenInNewOutlined sx={{ fontSize: "medium", justifyContent: 'end' }} />
-                </Stack>
+                </Stack></Link>
               </MenuItem>
               <Divider />
               

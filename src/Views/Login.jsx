@@ -18,12 +18,11 @@ export default function Login() {
         const { name, value } = event.target
         setFormData({ ...formData, [name]: value })
 
-        console.log("err", err)
 
     }
     const onSsubmit = (event) => {
         event.preventDefault();
-        console.log(`Submitted value`, formData);
+        
         dispatch(LoginActions(formData,navigate))
         Validate(formData)
     };

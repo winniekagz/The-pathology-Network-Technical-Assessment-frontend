@@ -18,7 +18,7 @@ export default function Profile() {
     const [changePass, setChangePass] = useToggle(false)
 
     const handleChangeFile = (e) => {
-        console.log(e.target.files);
+        
         setFile(URL.createObjectURL(e.target.files[0]));
     };
 
@@ -29,7 +29,7 @@ export default function Profile() {
     }
     const onSsubmit = (event) => {
         event.preventDefault();
-        console.log(`Submitted value`, formData);
+        
         dispatch(UpdateProfileAction(formData))
 
     };
@@ -77,7 +77,7 @@ export default function Profile() {
                             onChange={handleChange} />
 
                         <div className="col-span-2">
-
+{/* 
                             <button className={`border-none text-blue capitalize`} style={{ color: changePass ? red[300] : "#007fff" }} onClick={setChangePass}>{changePass ? "Cancel" : "Edit Password"}</button>
 
                             {changePass && (
@@ -125,7 +125,7 @@ export default function Profile() {
                                     </div>
                                 </div>
 
-                            )}
+                            )} */}
                             {/* editable image avatar
  */}
                         </div>

@@ -11,7 +11,7 @@ const GetProjectsAction = () => async (dispatch) => {
         dispatch({ type: GET_PROJECTS_REQUEST })
         const response = await requests.get(`/project/all`, {
             headers: {
-                'Authorization': `Bearer ${token}`
+                'x-access-token': ` ${token}`
             }
         })
 

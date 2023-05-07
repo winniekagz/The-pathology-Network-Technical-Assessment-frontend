@@ -16,14 +16,14 @@ const UpdateProfileAction = (data, navigate) => async (dispatch) => {
                 'x-access-token': ` ${token}`
             }
         })
-console.log("resoonse",response)
+
 
         dispatch({
             type: UPDATE_USER_SUCCESS,
             payload: response.data,
 
         })
-
+console.log("data",response.data)
         Swal.fire({
             title: 'Good job!',
             text: 'Profile Updated Successfully',

@@ -14,18 +14,18 @@ const ForgotPasswordAction = (data,navigate) => async (dispatch) => {
             type: FORGOT_PASSWORD_SUCCESS,
             payload: response.data
         })
-        console.log("response: " , response.data.resetLink)
+    
         Swal.fire({
             title: 'Good job!',
             text: 'email sent successfully ',
             icon: 'success',
             confirmButtonColor: '#00a15d',
         })
-navigate(response.data.resetLink)
+
     } catch (error) {
         dispatch({
             type: FORGOT_PASSWORD_FAILURE,
-            payload: error.response.data.message
+            payload: error
         })
         Swal.fire(
             'Error!',

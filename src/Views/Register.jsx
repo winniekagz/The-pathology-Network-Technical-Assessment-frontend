@@ -24,7 +24,6 @@ export default function Register() {
         const { name, value } = event.target
         setFormData({ ...formData, [name]: value })
 
-        console.log("err", err)
 
     }
 
@@ -36,7 +35,7 @@ export default function Register() {
         reader.onloadend = () => {
             setImage(reader.result);
         };
-        console.log(reader.result)
+        
 
 
     }
@@ -44,7 +43,7 @@ export default function Register() {
 
     const onSsubmit = (event) => {
         event.preventDefault();
-        console.log(`Submitted value`, formData);
+        
         dispatch(RegisterActions(formData,navigate))
        
         Validate(formData)
